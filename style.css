@@ -120,7 +120,9 @@ button:hover{
 }
 .middleSection{
     display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: end;
     height: 115px;
     border-top: 5px solid rgb(0, 0, 0) ;
     border-bottom: 5px solid rgb(0, 0, 0) ;
@@ -133,7 +135,9 @@ button:hover{
     left:8px ;
     font-size: 20px;
     font-weight: bold;
-
+    direction: rtl;      /* Sets text direction to right-to-left */
+    text-align: right;  
+    padding-right: 20px;  /* Aligns text to the right */
 }
 .lowerSection{
     display: flex;
