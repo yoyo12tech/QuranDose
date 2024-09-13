@@ -194,10 +194,10 @@ button:hover{
 
     }
 }
-@media (max-width: 510px) {
+@media (max-width: 590px) {
     .grid_container{
-        width: 220px;
-        grid-template-columns: 220px;
+        width: 300px;
+        grid-template-columns: 300px;
 
 
     }
